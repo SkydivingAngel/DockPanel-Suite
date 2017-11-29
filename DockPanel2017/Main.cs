@@ -13,14 +13,6 @@ namespace DockPanel2017
 {
     public partial class Main : Form
     {
-        //http://docs.dockpanelsuite.com/en/latest/tutorials/basics.html
-
-        //private DockContent dockContent1 = null;
-
-        //CREARE NUOVO PANNELLO STRUMENTI E TRASCINARCI DENTRO LA DLL IN NET 4!
-        //NB SETTARE COME MDI CONTAINER IL MAIN FORM!!
-        //DERIVARE I FORM FIGLI DA DOCKCONTENT -> public partial class Secondpanel : DockContent
-
         public Main()
         {
             InitializeComponent();
@@ -80,10 +72,6 @@ namespace DockPanel2017
                     if(Application.OpenForms[i1].Text.Contains("Second"))
                         Application.OpenForms[i1].Activate();
                 }
-
-                //Form f = Application.OpenForms[i1];
-                //if (t.IsInstanceOfType(f))
-                //    MessageBox.Show(""+ f.Text);
             }
         }
 
