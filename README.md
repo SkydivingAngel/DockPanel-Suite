@@ -1,3 +1,3 @@
 # How to use DockPanel Suite in WinForms
 
-**How to use some Trigegred Events**
+**How to use some Triggered Events**
